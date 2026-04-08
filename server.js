@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Webhook y despliegue automático funcionando.');
+  res.send('LM. Webhook y despliegue automático funcionando.');
 });
 
 app.listen(3000, () => {
