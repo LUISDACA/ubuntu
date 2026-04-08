@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('¡Seguridad total! Nginx cifra la conexión y Node procesa la lógica.');
+  res.send('Mi app ya actualiza desde GitHub hacia EC2 correctamente.');
 });
 
 app.listen(3000, () => {
