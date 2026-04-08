@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Mi app ya actualiza desde GitHub hacia EC2 correctamente.');
+  res.send('Webhook y despliegue automático funcionando.');
 });
 
 app.listen(3000, () => {
